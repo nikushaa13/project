@@ -1,0 +1,60 @@
+<div class="content">
+  <div class="edit">
+    <h1>Edit Item</h1>
+
+    <div class="buttons">
+      <button mat-stroked-button class="cancel" color="primary">Cancel</button>
+      <button mat-flat-button color="accent" (click)="updateHotels()">Save Changes</button>
+    </div>
+  </div>
+
+  <div class="elements">
+    <form [formGroup]="formGroup">
+      <div class="form __id">
+        <label for="id">Id</label>
+        <input id="id" type="text"   formControlName="id">
+      </div>
+      <div class="form __title">
+        <label for="title">title</label>
+        <input id="title" type="text"  formControlName="title">
+      </div>
+      <div class="form __description">
+        <label for="description">description</label>
+        <input id="description" type="text"  formControlName="description">
+      </div>
+      <div class="form __area">
+        <label for="area">area</label>
+        <input id="area" type="text"  formControlName="area">
+      </div>
+      <div class="form __price">
+        <label for="price">price</label>
+        <input id="price" type="text"  formControlName="price">
+      </div>
+      <div class="form __image">
+        <label for="image">image</label>
+        <input id="image" type="text"  formControlName="imageUrl">
+      </div>
+      <div class="form __image">
+        <label for="secondImage">image</label>
+        <input id="secondImage" type="text"  formControlName="secondImage">
+      </div>
+      <div class="form __image">
+        <label for="thirdImage">image</label>
+        <input id="thirdImage" type="text"  formControlName="thirdImage">
+      </div>
+      <div class="form __image">
+        <label for="fourthImage">image</label>
+        <input id="fourthImage" type="text"  formControlName="fourthImage">
+      </div>
+      <div class="form __image">
+        <label for="fifthImage">image</label>
+        <input id="fifthImage" type="text"  formControlName="fifthImage">
+      </div>
+      <div class="form __actions">
+        <label for="actions">actions</label>
+        <input id="actions" type="text"  formControlName="actions">
+      </div>
+    </form>
+  </div>
+
+</div>

@@ -1,0 +1,43 @@
+.content{
+  display: flex;
+  justify-content: space-around;
+
+  .delete-option{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 60px 45px;
+    background-color: #141a63;
+
+    h2{
+      color: white;
+    }
+    span{
+      color: white;
+    }
+  }
+
+  .delete-action{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 70px;
+    background-color: #181883;
+    gap: 10px;
+
+    button{
+      background: none;
+      border: 1.5px solid red;
+      color: white;
+      padding: 5px 130px;
+      cursor: pointer;
+      font-family: Roboto, sans-serif;
+      font-size: 15px;
+    }
+    .fill{
+      background-color: #ff00a2;
+    }
+  }
+}

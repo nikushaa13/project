@@ -1,0 +1,62 @@
+.content{
+  display: flex;
+  height: 790px;
+
+  .edit{
+    background-color: #141a63;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+
+    h1{
+      color: white;
+      text-align: center;
+    }
+
+    .buttons{
+      display: flex;
+      flex-direction: column;
+      margin: 70px;
+      gap: 20px;
+
+      button{
+        padding: 10px 70px;
+      }
+
+      .cancel{
+        border: 1px solid #b92e2e;
+      }
+    }
+  }
+
+  .elements{
+    background-color: #181883;
+
+    form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 50px;
+
+      input{
+        height: 32px;
+        width: 290px;
+        border: 2px solid #1515cc;
+        border-radius: 4px;
+        background-color: #13133c;
+        color: white;
+        font-family: Roboto, sans-serif;
+      }
+
+      label{
+        color: #d2d0d0;
+      }
+    }
+
+    .form{
+      display: flex;
+      flex-direction: column;
+      margin-bottom: 15px;
+    }
+  }
+}

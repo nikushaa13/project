@@ -1,0 +1,70 @@
+table {
+  width: 100%;
+  cursor: pointer;
+  img{
+    width: 100px;
+    height: 60px;
+    margin-top: 10px;
+    border-radius: 5px;
+  }
+  tr.hovered {
+    background-color: lightgray;
+    cursor: pointer;
+  }
+
+  //tr.selected, tr.hovered.selected {
+  //  background-color: lightgray;
+  //}
+}
+.additem{
+  display: flex;
+  position: fixed;
+  left: 95%;
+  top: 110px;
+  background-color: #c02440;
+  padding: 14px 15px;
+  z-index: 12;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+
+  .cycle{
+    border: 3px solid white;
+    border-radius: 49%;
+    padding: 1px 11px;
+  }
+
+  h1{
+    color: white;
+    font-size: 60px;
+    text-align: center;
+    margin-top: 10px;
+  }
+}
+.menu{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  //background-color: #080844;
+  padding: 0;
+
+  .item{
+    margin-top: 10px;
+
+    i{
+      font-size: 25px;
+      margin-top: 5px;
+      cursor: pointer;
+      //color: white;
+    }
+    span{
+      //color: white;
+    }
+  }
+}
+ng-container {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}

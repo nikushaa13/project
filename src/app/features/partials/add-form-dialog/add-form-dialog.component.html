@@ -1,0 +1,69 @@
+<form class="example-form" [formGroup]="formGroup">
+  <mat-form-field class="example-full-width">
+    <mat-label>Company (disabled)</mat-label>
+    <input matInput disabled value="Google">
+  </mat-form-field>
+
+  <table class="example-full-width" cellspacing="0"><tr>
+    <td><mat-form-field class="example-full-width">
+      <mat-label>Id</mat-label>
+      <input matInput
+             formControlName="id"
+      >
+    </mat-form-field></td>
+    <td><mat-form-field class="example-full-width">
+      <mat-label> Title</mat-label>
+      <input matInput
+             formControlName="title"
+      >
+    </mat-form-field></td>
+  </tr></table>
+
+  <p>
+    <mat-form-field class="example-full-width">
+      <mat-label>Description</mat-label>
+      <textarea matInput
+                placeholder="Ex. 100 Main St"
+                formControlName="description"
+      >1600 Amphitheatre Pkwy</textarea>
+    </mat-form-field>
+
+    <mat-form-field class="example-full-width">
+      <mat-label>Area</mat-label>
+      <textarea matInput
+                formControlName="area"
+      ></textarea>
+    </mat-form-field>
+
+    <mat-form-field class="example-full-width">
+      <mat-label>action</mat-label>
+      <textarea matInput
+                formControlName="actions"
+      ></textarea>
+    </mat-form-field>
+  </p>
+
+  <table class="example-full-width" cellspacing="0"><tr>
+    <td><mat-form-field class="example-full-width">
+      <mat-label>Price</mat-label>
+      <input matInput
+             formControlName="price"
+      >
+    </mat-form-field></td>
+    <td><mat-form-field class="example-full-width">
+      <mat-label>Image Upload</mat-label>
+      <input matInput
+             formControlName="imageUrl"
+      >
+    </mat-form-field></td>
+    <!--    <td><mat-form-field class="example-full-width">-->
+    <!--      <mat-label>Postal Code</mat-label>-->
+    <!--      <input matInput #postalCode maxlength="5" placeholder="Ex. 94105" value="94043">-->
+    <!--      <mat-hint align="end">{{postalCode.value.length}} / 5</mat-hint>-->
+    <!--    </mat-form-field></td>-->
+  </tr></table>
+</form>
+<mat-dialog-actions align="end">
+  <button mat-button mat-dialog-close  mat-raised-button color="accent">Cancel</button>
+  <button mat-button mat-raised-button color="primary" (click)="addHotel()" >Register Hotel</button>
+</mat-dialog-actions>

@@ -1,0 +1,29 @@
+<ng-container *ngIf="hotelDetails">
+  <div class="wrapper">
+    <div class="header">
+      <div class="title">
+        <h1>{{hotelDetails.title}}</h1>
+      </div>
+      <div class="details">
+        <h1>Area <span>{{hotelDetails.area}}</span></h1>
+        <h1> Price <span>{{hotelDetails.price}}$</span></h1>
+      </div>
+      <div class="images">
+        <div class="mainImage">
+          <img src="{{hotelDetails.imageUrl}}">
+        </div>
+        <div class="secondImages">
+          <img src="{{hotelDetails.secondImage}}">
+          <img src="{{hotelDetails.thirdImage}}">
+        </div>
+        <div class="thirdImages">
+          <img src="{{hotelDetails.fourthImage}}">
+          <img src="{{hotelDetails.fifthImage}}">
+        </div>
+      </div>
+      <div class="description">
+        <h1>{{hotelDetails.description}}</h1>
+      </div>
+    </div>
+  </div>
+</ng-container>

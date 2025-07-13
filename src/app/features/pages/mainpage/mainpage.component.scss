@@ -1,0 +1,114 @@
+.container{
+  display: flex;
+  max-width: 2200px;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  flex-wrap: wrap;
+  gap: 20px;
+
+  .content{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+  }
+
+  img{
+    width: 350px;
+    height: 300px;
+    border-radius: 7px;
+    cursor: pointer;
+    margin-bottom: 18px;
+  }
+
+  .heart{
+    position: absolute;
+    color: red;
+    right: 10px;
+    font-size: 20px;
+    top: 9px;
+  }
+
+  .arrow{
+    color: white;
+    position: absolute;
+    right: 10px;
+    font-size: 27px;
+    top: 120px;
+    cursor: pointer;
+
+  }
+  .left{
+    color: white;
+    position: absolute;
+    font-size: 27px;
+    cursor: pointer;
+    top: 120px;
+  }
+  .text{
+    display: flex;
+    flex-direction: column;
+
+    .area{
+      font-size: 20px;
+      font-weight: bold;
+      font-family: 'Roboto', sans-serif;
+    }
+
+    .price{
+      color: #5e5353;
+      font-family: "Albertus Extra Bold";
+      font-size: 15px;
+    }
+    .title{
+      color: #5e5353;
+      font-family: "Albertus Extra Bold";
+      font-size: 15px;
+    }
+
+  }
+}
+//img {
+//  &:hover {
+//    transition: opacity 0.3s ease;
+//
+//    ~ i {
+//      display: block;
+//      transition: opacity 0.3s ease;
+//
+//    }
+//  }
+//}
+
+.dots {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+  position: absolute;
+  bottom: 89px;
+  left: 115px;
+}
+
+.dot {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: rgba(0, 0, 0, 0.9);
+  margin: 0 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.dot.active {
+  background-color: white;
+}
+
+ngx-skeleton-loader {
+  display: flex;
+  max-width: 2200px;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  flex-wrap: wrap;
+  gap: 20px;
+}

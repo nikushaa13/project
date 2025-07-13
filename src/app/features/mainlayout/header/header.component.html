@@ -1,0 +1,58 @@
+<div class="header">
+  <div class="toggle-section">
+    <div class="dot-section">
+      <div class="row">
+        <div class="dot"></div>
+        <div class="dot"></div>
+        <div class="dot"></div>
+      </div>
+      <div class="row">
+        <div class="dot"></div>
+        <div class="dot"></div>
+        <div class="dot"></div>
+      </div>
+      <div class="row">
+        <div class="dot"></div>
+        <div class="dot"></div>
+        <div class="dot"></div>
+      </div>
+    </div>
+  </div>
+  <div class="content">
+    <h1 routerLink="/home" >Crystal Cove</h1>
+
+    <i class="bi bi-search"></i>
+      <input type="text" placeholder="search your favourite hotels" [(ngModel)]="searchText" (input)="onSearch()">
+      <button class="search-button"> search</button>
+    <i class="bi bi-arrow-right"></i>
+  </div>
+  <div class="report">
+    <span>Report Exporting</span>
+    <span class="percent">20 %</span>
+
+  </div>
+  <div class="profile">
+    <button *ngIf="loggedIn" (click)="logOut()">Log out</button>
+    <div *ngIf="!loggedIn " class="icon-section">
+      <i class="bi bi-bell"></i>
+      <i class="bi bi-person-fill-add" (click)="openRegisterDialog()"></i>
+      <i class="bi bi-gear-wide-connected"></i>
+    </div>
+  </div>
+</div>
+
+<div class="search-header">
+
+  <div class="icons" *ngFor="let category of categories" (click)="chooseCategory(category.category)">
+    <i [class]="'bi bi-' + category.categoryIcon"></i>
+    <span>{{ category.category }}</span>
+  </div>
+  <i class="arr bi bi-arrow-right-circle-fill"></i>
+</div>
+
+<i class="bi bi-search"></i>
+<i class="bi bi-arrow-right"></i>
+<i class="bi bi-bell"></i>
+<i class="bi bi-person-fill-add"></i>
+<i class="bi bi-gear-wide-connected"></i>
+
