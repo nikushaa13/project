@@ -16,6 +16,7 @@ export class HotelDetailsComponent implements OnInit{
   }
   ngOnInit() {
     this.currentHotelId = this._route.snapshot.paramMap.get('id')
+    console.log(121)
     this.getHotelsDetail()
   }
 

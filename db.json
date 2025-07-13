@@ -15,7 +15,43 @@
     "actions": "open",
     "category": "island",
     "categoryIcon": "tsunami"
-  }
+  },
+    {
+
+
+      "id": 2,
+      "title": "სასტუმრო ულამაზესი ხედებით",
+      "price": 99,
+      "description": "ერთერთი ყველაზე მოთხოვნადი ადგილი თბილისში",
+      "secondImage": "https://www.golfandmore.com/wp-content/uploads/2023/12/pullman-tbilisi-axis-towers-picture.jpg",
+      "thirdImage": "https://www.ahstatic.com/photos/a1f1_ho_01_p_1024x768.jpg",
+      "fifthImage": "https://www.luxuryhotelawards.com/wp-content/uploads/sites/8/2024/04/DJI_0455-scaled.jpg",
+      "fourthImage": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/367940237.jpg?k=80c407a54420ffc852bfaeb38dd3d4fe782eb8b9b276d3f9d7818e9c03b575d6&o=&hp=1",
+      "imageUrl": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/608176696.jpg?k=60c0a4378be4fbe489601d54aac56b04c750b1499e4dcc7654b5f1553cda0c5a&o=&hp=1",
+      "area": "France, Paris",
+      "actions": "open",
+      "category": "island",
+      "categoryIcon": "tsunami"
+    },
+
+    {
+      "id": 3,
+      "title": "Marriott Tbilisi",
+      "price": "100$-550$",
+      "description": "A luxurious 5-star hotel located in the heart of Tbilisi, offering elegant rooms, fine dining, and top-tier amenities with a blend of Georgian charm and modern comfort.",
+      "secondImage": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/600682395.jpg?k=0689a7eb1a9e76c3f6db6e9781715af2f3efb32f57e5cd73417f47b399500b67&o=&hp=1",
+      "thirdImage": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/461715542.jpg?k=19bae4e7c8ef901bfa55906ab9d68b93efdabe058d25477b1455121b9230a8da&o=&hp=1",
+      "fourthImage": "https://cache.marriott.com/content/dam/marriott-renditions/TBSMC/tbsmc-guestroom-6118-hor-clsc.jpg?output-quality=70&interpolation=progressive-bilinear&downsize=540px:*",
+      "fifthImage": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/461715478.jpg?k=cc701951202b099bf6b260a46f1013369ef7cf33ca739b9bde0bee8995105018&o=&hp=1",
+      "imageUrl": "https://cache.marriott.com/content/dam/marriott-digital/mc/emea/hws/t/tbsmc/en_us/photo/unlimited/assets/mc-tbsmc-exterior-13762.jpg",
+      "area": "Georgia, Tbilisi",
+      "actions": "open",
+      "category": "luxury",
+      "categoryIcon": "gem"
+    }
+
+
+
 ],
   "categories": [
     {
@@ -25,6 +61,10 @@
     {
       "category": "island",
       "categoryIcon": "tsunami"
+    },
+    {
+      "category": "transport",
+      "categoryIcon": "bus-front"
     },
     {
       "category": "beachFront",
