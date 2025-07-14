@@ -464,7 +464,7 @@
       "actions": "open",
       "category": "gambling",
       "categoryIcon": "controller"
-    }
+    },
 
 
 
@@ -472,6 +472,123 @@
 
 
 
+
+
+
+    {
+      "id": 27,
+      "title": "აბუდელაურის ფერადი ტბები",
+      "price": 0,
+      "description": "აბუდელაურის ფერადი ტბები მდებარეობს ხევსურეთში მდინარე აბუდელაურის ხეობის თავში ზღვის დონიდან 2600 მეტრზე.\n\nაბუდელაურის ტბები მოიცავს სამ ტბას - მწვანე ტბა, ლურჯი ტბა და თეთრი ტბა. მწვანე და ლურჯი ტბები თითქმის გვერდიგვერდ მდებარეობს, ხოლო თეთრი ტბა ცოტა მოშორებით, ჭაუხის მასივის ძირში მდებარეობს და შედარებით უფრო რთული მისასვლელი აქვს. აბუდელაურის ტბები სოფელ როშკადან 7 კილომეტრით არის დაშორებული, ეს ყველაზე მოკლე და მარტივი ბილიკია ამ ადგილის მოსანახულებლად. თუმცა ამ ტბების მონახულება ასევე შეგიძლიათ ჯუთა - აბუდელაურის მარშრუტის გავლით, რომელიც ორდღიანია, იწყება ჯუთაში და სრულდება როშკაში.",
+      "secondImage": "https://360georgia.ge/app/uploads/2021/08/%E1%83%90%E1%83%91%E1%83%A3%E1%83%93%E1%83%94%E1%83%9A%E1%83%90%E1%83%A3%E1%83%A0%E1%83%98%E1%83%A1-%E1%83%A2%E1%83%91%E1%83%90-%E1%83%9A%E1%83%9D%E1%83%92%E1%83%9D.jpg",
+      "thirdImage": "https://storage.googleapis.com/feedc_v1_largepostimages/MTY5MTIzX3Bvc3RfMTU5NTI3MTg1NA==.jpeg",
+      "fifthImage": "https://cdn.georgiantravelguide.com/storage/thumbnails/dsc0942-2.jpg",
+      "fourthImage": "https://cdn.georgiantravelguide.com/storage/thumbnails/img-3762-2.jpg",
+      "imageUrl": "https://www.turebi.ge/uploads/photos/tours1/large/54004_1.jpg?v=48",
+      "area": "ხევსურეთი",
+      "actions": "open",
+      "category": "mountains",
+      "categoryIcon": "file-image-fill"
+    },
+
+
+
+        {
+          "id": 28,
+          "title": "კურორტი ბორჯომი\n",
+          "price": 0,
+          "description": "კურორტი ბორჯომი მდებარეობს საქართველოს სამხრეთ-აღმოსავლეთ ნაწილში, მტკვრის ხეობაში, ზღვის დონიდან 810-850 მ სიმაღლეზე. იგი დაბალმთიან კურორტთა ჯგუფს მიეკუთვნება. ხეობას თითქმის ყველა მხრიდან ესაზღვრება წიწვოვანი და შერეულ-ფოთლოვანი ტყეებით დაფარული მთები. კურორტის მოსაზღვრე ზოგიერთი მთის სიმაღლე ზღვის დონიდან 3000 მ-ს აღწევს",
+          "secondImage": "https://www.vidal.ge/assets/uploads/d7/d715864fabcac467381629ba0c918e1b7ca68e92.jpg",
+          "thirdImage": "https://www.vidal.ge/assets/uploads/cf/cffa78c3d6067fb8ad9eca86305ca5c743f54839.jpg",
+          "fifthImage": "https://www.vidal.ge/assets/uploads/41/41016d74f8891b0cdf870b244bfaaf3cedc146e9.jpg",
+          "fourthImage": "https://www.vidal.ge/assets/uploads/e7/e79af8a3245975b2ccf7ebe9650734c26b0ed19d.jpg",
+          "imageUrl": "https://www.vidal.ge/assets/uploads/53/531d0461202ce69c7b163e6ea8f462c684af2a09.jpg",
+          "area": "ბორჯომი",
+          "actions": "open",
+          "category": "mountains",
+          "categoryIcon": "file-image-fill"
+        },
+
+
+
+
+        {
+          "id": 29,
+          "title": "Gudauri: Alpine Winter Resort",
+          "price": 560,
+          "description": "კავკასიონის მთების სამხრეთ კალთაზე, ზღვის დონიდან 2200 მეტრის სიმაღლეზე მდებარე გუდაური საქართველოს ერთ-ერთი წამყვანი სათხილამურო კურორტია. კურორტი, რომელიც თბილისიდან მანქანით სულ რაღაც ორი საათის სავალზე მდებარეობს, მთელი წლის განმავლობაში იზიდავს როგორც ადგილობრივ, ასევე საერთაშორისო დამსვენებლებს.",
+          "secondImage": "https://www.powderhounds.com/site/DefaultSite/filesystem/images/Europe/Georgia/Gudauri/overview/03.jpg",
+          "thirdImage": "https://activityfan.com/wp-content/uploads/2021/06/travel-to-gudauro.jpg",
+          "fifthImage": "https://d3rr2gvhjw0wwy.cloudfront.net/uploads/mandators/75936/file-manager/gudauri.jpg",
+          "fourthImage": "https://yorktowers.com/wp-content/uploads/2025/04/georgia-gudauri.jpg",
+          "imageUrl": "https://storage.georgia.travel/images/gudauri-ski-resort-georgia.webp",
+          "area": "გუდაური,ყაზბეგი",
+          "actions": "open",
+          "category": "arctic",
+          "categoryIcon": "snow3"
+        },
+
+
+
+
+
+        {
+          "id": 30,
+          "title": "Bakuriani ski Resort",
+          "price": 150,
+          "description": "ბორჯომის ხეობაში, ზღვის დონიდან 1700 მეტრის სიმაღლეზე მდებარე ბაკურიანი საქართველოს ერთ-ერთი უძველესი მთის კურორტია.",
+          "secondImage": "https://i0.wp.com/wearegeorgia.tours/wp-content/uploads/2024/01/dreamstime_xxl_37959751.jpg?fit=1300%2C975&ssl=1",
+          "thirdImage": "https://georgiavoyage.ge/wp-content/uploads/2020/08/Bakuriani-resort.jpg",
+          "fifthImage": "https://awe-inspiringplaces.com/wp-content/uploads/2024/01/Bakuriani-Ski-Resort.jpeg",
+          "fourthImage": "https://getmancar.com/storage/222/conversions/b27291e55b088063da1cc9546b314dee-desktop.webp",
+          "imageUrl": "https://cdn.georgiantravelguide.com/storage/files/satkhilamuro-kurorti-bakuriani-ski-resort-bakuriani-2.jpg",
+          "area": "ბაკურიანი",
+          "actions": "open",
+          "category": "arctic",
+          "categoryIcon": "snow3"
+        },
+
+
+
+
+
+
+
+        {
+          "id": 31,
+          "title": "კიკვიძის პარკი",
+          "price": null,
+          "description": "პარკი ულამაზესი გამწვანებით",
+          "secondImage": "https://cdn.1tv.ge/app/uploads/2020/07/1594743186-%E1%83%99%E1%83%98%E1%83%99%E1%83%95%E1%83%98%E1%83%AB%E1%83%98%E1%83%A1-%E1%83%91%E1%83%90%E1%83%A6%E1%83%98-10.jpg",
+          "thirdImage": "https://cdn.imedi.ge/new/imedinews/G/2007/76/82/39/z_2mrXOGZU2GuemOGsXmcg/imedinews-15.jpg",
+          "fifthImage": "https://www.botanica.ge/wp-content/uploads/2021/09/4-2.jpg",
+          "fourthImage": "https://www.botanica.ge/wp-content/uploads/2021/09/1-7.jpg",
+          "imageUrl": "https://cdn.1tv.ge/app/uploads/2020/07/1594743192-%E1%83%99%E1%83%98%E1%83%99%E1%83%95%E1%83%98%E1%83%AB%E1%83%98%E1%83%A1-%E1%83%91%E1%83%90%E1%83%A6%E1%83%984.jpg",
+          "area": "თბილისი, ცოტნე დადიანის 164",
+          "actions": "open",
+          "category": "parks",
+          "categoryIcon": "tree-fill"
+        },
+
+
+
+
+
+        {
+          "id": 32 ,
+          "title": "KHIDI CLUB 中 კლუბი ხიდი",
+          "price": 15,
+          "description": "კლუბი ტექნო მუსიკის და კოკტეილების მოყარულთათვის",
+          "secondImage": "https://i.ytimg.com/vi/pKl7GVk60Ow/maxresdefault.jpg",
+          "thirdImage": "https://i0.wp.com/mnmt.no/wp-content/uploads/2016/12/KHIDI_0012_main_floor_lights.jpg?fit=1601%2C1039&ssl=1",
+          "fifthImage": "https://civil.ge/wp-content/uploads/2022/02/Khidi-780x470.png",
+          "fourthImage": "https://www.technostation.tv/wp-content/uploads/2022/05/41850552_769312010078911_5654161859197009920_n-1.jpg",
+          "imageUrl": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/11/06/ff/63/khidi-night-club-tbilisi.jpg?w=1200&h=-1&s=1",
+          "area": "პრეზიდენტი ჰეიდარ ალიევის სანაპირო, თბილისი 0101",
+          "actions": "open",
+          "category": "club",
+          "categoryIcon": "file-music-fill"
+        }
 
 
   ],
@@ -502,6 +619,27 @@
       "price": 25,
       "id": 3,
       "hotelId": 3
+    },
+
+
+    {
+      "image": "https://cdn.georgiantravelguide.com/storage/files/img-20210911-155420.jpg",
+      "title": "Mitsubishi Delica",
+      "description": "მარშუტი იწყება სოფელი კორშიდან და გრძელდება სოფელ როშკამდე. მანქანა გათვლილია 6 პერსონაზე. დამატებითი ინფორმაციისთვის დარეკეთ tel: 555111222",
+      "route": "სოფ.კორშა-სოფ.როშკა",
+      "price": 100,
+      "id": 27,
+      "hotelId": 27
+    },
+
+    {
+      "image": "https://cache2.pakwheels.com/ad_pictures/1231/mitsubishi-pajero-2002-123167733.webp",
+      "title": "Mitsubishi Pajero",
+      "description": "მგზავრობასთან ერთად შედის გიდის მომსახურებაც. ტელ: 555123321",
+      "route": "სოფ.კორშიდან - სოფ.როშკამდე",
+      "price": 150,
+      "id": 27,
+      "hotelId": 27
     }
   ],
   "categories": [
