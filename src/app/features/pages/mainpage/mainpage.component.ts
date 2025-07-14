@@ -39,8 +39,10 @@ export class MainpageComponent implements OnInit {
       if (selectedCategory === 'All Categories') {
         this.hotels.next(this.allHotels)
       }else {
+        console.log(selectedCategory);
         const filteredHotels = this.allHotels.filter(hotel => hotel.category === selectedCategory)
         this.hotels.next(filteredHotels)
+        console.log(filteredHotels)
       }
     })
 
@@ -94,5 +96,7 @@ export class MainpageComponent implements OnInit {
     item.currentImageIndex = (item.currentImageIndex - 1 + 5) % 5;
   }
 }
+
+
 
 

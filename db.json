@@ -9,31 +9,75 @@
       "username": "nikusha",
       "host": true,
       "id": 1
+    },
+    {
+      "email": "tester@gmail.com",
+      "password": "$2a$10$6ynqBww5f8/Cs.Q7m6cJkuOBt9070orrhbnL3SYarb7KgNTtRWKzS",
+      "name": "test",
+      "lastname": "tester",
+      "confirmPassword": "11111111",
+      "username": "admin",
+      "host": "",
+      "id": 2
+    },
+    {
+      "email": "kacuri@gmail.com",
+      "password": "$2a$10$flS7haQr.URI5cZuGJIPD.8ewDbfMb6JBoVv3J.2sKri6JvSvumyC",
+      "name": "kaci",
+      "lastname": "kacuri",
+      "confirmPassword": "kaci123",
+      "username": "kacurikaci",
+      "host": true,
+      "id": 3
     }
   ],
   "comments": [
     {
-      "body": "საკმაოდ ლამაზი სასტუმროა",
-      "commentId": "4",
-      "userName": "nikusha",
+      "body": "sastumro kargi xedebit",
+      "commentId": "2",
+      "userName": "admin",
       "id": 1
+    },
+    {
+      "body": "magaria",
+      "commentId": "15",
+      "userName": "admin",
+      "id": 2
+    },
+    {
+      "body": "momewona kargia \n",
+      "commentId": "5",
+      "userName": "kacurikaci",
+      "id": 3
+    },
+    {
+      "body": "momewona kargia \n",
+      "commentId": "5",
+      "userName": "kacurikaci",
+      "id": 4
+    },
+    {
+      "body": "viyavi da dzalian momewona",
+      "commentId": "7",
+      "userName": "kacurikaci",
+      "id": 5
     }
   ],
   "hotels": [
     {
       "id": 2,
-      "title": "სასტუმრო ულამაზესი ხედებით",
-      "price": 99,
-      "description": "ერთერთი ყველაზე მოთხოვნადი ადგილი თბილისში",
+      "title": "Pullman Hotels and Resorts",
+      "price": 600,
+      "description": "„პულმანის სასტუმროები და კურორტები“ ფრანგული მრავალეროვნული, მაღალი კლასის სასტუმროების ბრენდია, რომლის მფლობელიც სასტუმრო ინდუსტრიის მსოფლიო ლიდერი „აკორია“. „პულმანს“ 110 სასტუმრო და კურორტი აქვს 33 ქვეყანაში ევროპაში, აფრიკაში, ახლო აღმოსავლეთში, აზია-წყნარი ოკეანის რეგიონში, ავსტრალიასა და ლათინურ ამერიკაში. სასტუმრო მდებარეობს ვაკის რაიონში, თბილისის ერთ-ერთ უდიდეს საცხოვრებელ უბანში. იდეალური მდებარეობით, ის გთავაზობთ მარტივ წვდომას ქალაქის მრავალ ღირსშესანიშნაობაზე, მათ შორის პარკებზე, მაღაზიებზე, საფეხმავლო ბილიკებზე, საელჩოებზე, კაფეებზე, ბარებსა და რესტორნებზე, ღია ცის ქვეშ მუზეუმსა და ქალაქის სტადიონზე.",
       "secondImage": "https://www.golfandmore.com/wp-content/uploads/2023/12/pullman-tbilisi-axis-towers-picture.jpg",
       "thirdImage": "https://www.ahstatic.com/photos/a1f1_ho_01_p_1024x768.jpg",
       "fifthImage": "https://www.luxuryhotelawards.com/wp-content/uploads/sites/8/2024/04/DJI_0455-scaled.jpg",
       "fourthImage": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/367940237.jpg?k=80c407a54420ffc852bfaeb38dd3d4fe782eb8b9b276d3f9d7818e9c03b575d6&o=&hp=1",
       "imageUrl": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/608176696.jpg?k=60c0a4378be4fbe489601d54aac56b04c750b1499e4dcc7654b5f1553cda0c5a&o=&hp=1",
-      "area": "France, Paris",
+      "area": "ილია ჭავჭავაძის გამზირი 37მ თბილისი 0179",
       "actions": "open",
-      "category": "island",
-      "categoryIcon": "tsunami"
+      "category": "luxury",
+      "categoryIcon": "gem"
     },
     {
       "id": 3,
@@ -52,7 +96,7 @@
     },
     {
       "id": 4,
-      "title": "Paragraph Freedom Square, a Luxury Collection Hotel ",
+      "title": "Paragraph Freedom Square ",
       "price": 550,
       "description": " შეაბიჯეთ ეკლექტიკური ენერგიისა და ხიბლის სამყაროში, პარაგრაფ თავისუფლების მოედანზე, თბილისში. ისტორიული ძველი ქალაქიდან, იუნესკოს მსოფლიო მემკვიდრეობის ძეგლიდან რამდენიმე ნაბიჯში, ახალი ერის დასაწყისია - საქართველოს გამორჩეული ფუფუნების სასტუმრო. ",
       "secondImage": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2c/c2/e5/29/exterior.jpg?w=500&h=-1&s=1",
@@ -154,7 +198,282 @@
       "actions": "open",
       "category": "luxury",
       "categoryIcon": "gem"
+    },
+    {
+      "id": 11,
+      "title": "საოჯახო სასტუმრო ბაბი",
+      "price": 45,
+      "description": " საოჯახო სასტუმრო განთავსებულია საკუთარი სახლის მეორე სართულზე, სადაც გვაქვს 3 იზოლირებული საძინებელი (თითოეული 2 ადგილიანი), საერთო სველი წერტილით და სამზარეულო კუთხით.",
+      "secondImage": "https://sastumroebi.ge/uploads/2025/1548/s/1-s.jpeg",
+      "thirdImage": "https://sastumroebi.ge/uploads/2025/1548/s/2-s.jpeg",
+      "fifthImage": "https://sastumroebi.ge/uploads/2025/1548/s/6-s.jpeg",
+      "fourthImage": "https://sastumroebi.ge/uploads/2025/1548/s/12-s.jpeg",
+      "imageUrl": "https://sastumroebi.ge/uploads/2019/05/27/s/1548-1-s.png",
+      "area": "ამბროლაური, ალექსანდრე წულუკიძის ქუჩა 8",
+      "actions": "open",
+      "category": "cabins",
+      "categoryIcon": "house-fill"
+    },
+    {
+      "id": 12,
+      "title": "ლაბირინთი • LABYRINTH POOL",
+      "price": 15,
+      "description": " აუზი და სპა",
+      "secondImage": "https://hotsale.ge/files/offers/labrynthpool/1%20(6).png",
+      "thirdImage": "https://hotsale.ge/files/offers/labrynthpool/1%20(5).png",
+      "fifthImage": "https://hotsale.ge/files/offers/labrynthpool/1%20(4).png",
+      "fourthImage": "https://hotsale.ge/files/offers/labrynthpool/chamateba/19.jpg",
+      "imageUrl": "https://hotsale.ge/files/offers/labrynthpool/1%20(9).png",
+      "area": "თბილისი, ავჭალა 2. ხორავას ქუჩა 6",
+      "actions": "open",
+      "category": "pools",
+      "categoryIcon": "water"
+    },
+    {
+      "id": 13,
+      "title": "პალმა ლაგუნა • PALMA LAGUNA",
+      "price": 25,
+      "description": "'Palma Laguna' პირველი საცურაო აუზია ბათუმში, რომელიც ზღვის წყლით ივსებ",
+      "secondImage": "https://hotsale.ge/files/offers/palmalaguna/promo.png",
+      "thirdImage": "https://hotsale.ge/files/offers/palmalaguna/prom.jpg",
+      "fifthImage": "https://hotsale.ge/files/offers/palmalaguna/16.jpg",
+      "fourthImage": "https://hotsale.ge/files/offers/palmalaguna/15.jpg",
+      "imageUrl": "https://hotsale.ge/files/offers/palmalaguna/lagunabatumi.jpg",
+      "area": "ბათუმი, ს.ჟღენტის 1",
+      "actions": "open",
+      "category": "pools",
+      "categoryIcon": "water"
+    },
+    {
+      "id": 14,
+      "title": "ბომონდ გარდენი • BEAUMONDE GARDEN",
+      "price": 45,
+      "description": "ძვირფასო მომხმარებლებო! „ბომონდ გარდენი / BEAUMONDE GARDEN“-ში ასევე ფუნქციონირებს კეთილმოწყობილი ლაუნჯ-ბარი და კვების ობიექტი. ღია აუზი განთავსებულია სასტუმროს მე-8 სართულზე. აქ შეგიძლიათ დატკბეთ თბილისის ხედებით.\n\n",
+      "secondImage": "https://hotsale.ge/files/offers/bomondgardeni/38.jpg",
+      "thirdImage": "https://hotsale.ge/files/offers/bomondgardeni/25.jpg",
+      "fifthImage": "https://hotsale.ge/files/offers/bomondgarden/3.png",
+      "fourthImage": "https://hotsale.ge/files/offers/bomondgarden/2.png",
+      "imageUrl": "https://hotsale.ge/files/offers/bomondgarden/1.png",
+      "area": "მარშალ გელოვანის 6 ა",
+      "actions": "open",
+      "category": "pools",
+      "categoryIcon": "water"
+    },
+    {
+      "id": 15,
+      "title": "აიეტი / HOTEL AEETES",
+      "price": 15,
+      "description": "სუფთა აუზი თქვენთვის და თქვენი მეგობრებისთვის",
+      "secondImage": "https://hotsale.ge/files/offers/aieti/chamateba2/32.jpg",
+      "thirdImage": "https://hotsale.ge/files/offers/aieti/5-1.jpg",
+      "fifthImage": "https://hotsale.ge/files/offers/aieti/chamateba2/28.jpg",
+      "fourthImage": "https://hotsale.ge/files/offers/aieti/chamateba2/16.jpg",
+      "imageUrl": "https://hotsale.ge/files/offers/aieti/chamateba2/29.jpg",
+      "area": "ქობულეთი, აღმაშენებლის 844ა",
+      "actions": "open",
+      "category": "pools",
+      "categoryIcon": "water"
+    },
+    {
+      "id": 16,
+      "title": "Mtskheta,Jvari, Gori, Uplistsikhe",
+      "price": 0,
+      "description": "მცხეთა-ჯვარი იუნესკოს მსოფლიო მემკვიდრეობის ძეგლი და საქართველოს ყოფილი დედაქალაქია. ამ ადგილას მრავალი ისტორიული ეკლესია და საკათედრო ტაძარია, მათ შორის ჯვრის მონასტერი, რომელიც მე-6 საუკუნით თარიღდება.",
+      "secondImage": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-720x480/10/5b/1b/9d.jpg",
+      "thirdImage": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-720x480/10/5b/1b/94.jpg",
+      "fifthImage": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-720x480/10/5b/1b/86.jpg",
+      "fourthImage": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-674x446/10/5b/21/48.jpg",
+      "imageUrl": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-720x480/10/5b/1b/83.jpg",
+      "area": "მცხეთა",
+      "actions": "open",
+      "category": "trending",
+      "categoryIcon": "fire"
+    },
+    {
+      "id": 17,
+      "title": "Day Trip to Kakheti Wine Region",
+      "price": 0,
+      "description": "გაემგზავრეთ ღვინის დეგუსტაციის ტურში საქართველოს კახეთის რეგიონში და მგზავრობა თქვენს გიდს მიანდეთ. ამ მცირე ჯგუფური ტურის ფარგლებში თქვენ აღმოაჩენთ ისტორიულ ადგილებსა და პეიზაჟებს ყვარელში, ბოდბეში, ბადიაურსა და სიღნაღში და შეიტყობთ ყველაფერს საქართველოს ღვინის დაყენების ხანგრძლივი ისტორიის შესახებ.",
+      "secondImage": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-720x480/11/a5/88/2f.jpg",
+      "thirdImage": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-720x480/11/d3/8e/60.jpg",
+      "fifthImage": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-720x480/11/d3/51/2d.jpg",
+      "fourthImage": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-720x480/11/d3/51/58.jpg",
+      "imageUrl": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-674x446/11/d3/4d/ef.jpg",
+      "area": "კახეთი",
+      "actions": "open",
+      "category": "trending",
+      "categoryIcon": "fire"
+    },
+    {
+      "id": 18,
+      "title": "Khinkali and Khachapuri Cooking Class",
+      "price": 0,
+      "description": "გაიგეთ, როგორ მოამზადოთ ორი ლეგენდარული ქართული კერძი პროფესიონალივით ამ ორსაათიანი, მცირე ჯგუფებისთვის განკუთვნილ ხინკალისა და ხაჭაპურის მომზადების სემინარის დროს, რომელიც გაიმართება თბილისში. დააგემოვნეთ ერთი ჭიქა ქართული ღვინო და გემრიელი ადგილობრივი საჭმელები, რასაც მოჰყვება ქართველი შეფ-მზარეულის თანხლებით, გააბრტყელეთ ცომი და მოამზადეთ შიგთავსი.",
+      "secondImage": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-720x480/0c/09/71/ad.jpg",
+      "thirdImage": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-720x480/0c/09/71/33.jpg",
+      "fifthImage": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-720x480/0c/09/71/17.jpg",
+      "fourthImage": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-720x480/0c/09/71/14.jpg",
+      "imageUrl": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-674x446/0c/09/71/15.jpg",
+      "area": "თბილისი",
+      "actions": "open",
+      "category": "trending",
+      "categoryIcon": "fire"
+    },
+    {
+      "id": 19,
+      "title": "Funicular",
+      "price": 0,
+      "description": "ულამაზესი ადგილი, ულამაზესი მთაწმინდის ხედით",
+      "secondImage": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2e/0f/ca/77/caption.jpg?w=1000&h=-1&s=1",
+      "thirdImage": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/12/96/d0/6e/view-from-the-tram.jpg?w=1000&h=-1&s=1",
+      "fifthImage": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/16/04/aa/86/20190108-104614-largejpg.jpg?w=1000&h=-1&s=1",
+      "fourthImage": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/8b/30/9d/pano-20200103-131234.jpg?w=1000&h=-1&s=1",
+      "imageUrl": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/15/46/3f/6e/photo0jpg.jpg?w=700&h=400&s=1",
+      "area": "მთაწმინდა",
+      "actions": "open",
+      "category": "trending",
+      "categoryIcon": "fire"
+    },
+    {
+      "id": 20,
+      "title": "ბულვარ საიდ ბათუმი ",
+      "price": 115,
+      "description": "სასტუმრო ულამაზესი ხედებით",
+      "secondImage": "https://hotsale.ge/files/offers/aqciebi/dasveneba/best%20western%20batumii/nino/8.jpg",
+      "thirdImage": "https://hotsale.ge/files/offers/rooftoppoolhotel/3.jpg",
+      "fifthImage": "https://hotsale.ge/files/offers/rooftoppoolhotel/43.jpg",
+      "fourthImage": "https://hotsale.ge/files/offers/aqciebi/dasveneba/best%20western%20batumii/nino/7.jpg",
+      "imageUrl": "https://hotsale.ge/files/offers/aqciebi/dasveneba/best%20western%20batumii/nino/10.jpg",
+      "area": "ბათუმი, ლეხ და მარია კაჩინსკის 56",
+      "actions": "open",
+      "category": "beachFront",
+      "categoryIcon": "brightness-alt-high"
+    },
+    {
+      "id": 21,
+      "title": "სასტუმრო ორბი სითი ",
+      "price": 150,
+      "description": "ორბი თვინ თაუერსი, სასტუმრო ზღვის და ქალაქის ხედებით",
+      "secondImage": "https://hotsale.ge/files/offers/lanaorbi/orbicity/5'-1.jpg",
+      "thirdImage": "https://hotsale.ge/files/offers/lanaorbi/orbicity/7-1.jpg",
+      "fifthImage": "https://hotsale.ge/files/offers/lanaorbi/orbicity/4-2.jpg",
+      "fourthImage": "https://hotsale.ge/files/offers/orbicity/6-2.jpg",
+      "imageUrl": "https://hotsale.ge/files/offers/orbicity/View.jpg",
+      "area": "ბათუმი, შერიფ ხიმშიაშვილის ქუჩა N7ბ",
+      "actions": "open",
+      "category": "beachFront",
+      "categoryIcon": "brightness-alt-high"
+    },
+    {
+      "id": 22,
+      "title": "Alliance Palace Batumi",
+      "price": 225,
+      "description": "ალიანს პალასი ბაღუმში გთავაზობთ მოსახერხებელ მდებარეობას და განსაცვიფრებელ ზღვის ხედებით.",
+      "secondImage": "https://q-xx.bstatic.com/xdata/images/hotel/max1024x768/444488757.jpg?k=ff5ffb3911e54b4fd19bcdbaf648195f68d2ccd20914e5a27e079089ae84c888&o=",
+      "thirdImage": "https://alliancepalace.ge/img/132268d46b7801c0.webp",
+      "fifthImage": "https://alliancepalace.ge/img/8488979931cb185d.webp",
+      "fourthImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSj6GzpyNuTlE8XgifQEz7xEjPnBQUiLMl0RA&s",
+      "imageUrl": "https://alliancepalace.ge/img/6007085630a536ff.webp",
+      "area": "ბათუმი, შერიფ ხიმშიაშვილის ქ. 5",
+      "actions": "open",
+      "category": "beachFront",
+      "categoryIcon": "brightness-alt-high"
+    },
+    {
+      "id": 23,
+      "title": "Ramada Plaza ",
+      "price": 300,
+      "description": "დარჩით საქართველოს მთავარი დასასვენებელი ადგილის ცენტრში და ისიამოვნეთ თანამედროვე არქიტექტურული დიზაინით, კეთილმოწყობილი სასტუმრო ოთახებითა და შავი ზღვის განსაცვიფრებელი ხედებით Ramada Plaza by Wyndham Batumi-ში.",
+      "secondImage": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2b/d7/11/ff/guest-room.jpg?w=900&h=500&s=1",
+      "thirdImage": "https://ramada-plaza-by-wyndham-batumi.batumihotels.net/data/Imgs/OriginalPhoto/16418/1641830/1641830250/img-batumi-23.JPEG",
+      "fifthImage": "https://www.wyndhamhotels.com/content/dam/property-images/en-us/ra/ge/others/batumi/54499/54499_exterior_view_3.jpg",
+      "fourthImage": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/585295269.jpg?k=3f96d9b137e0901c2b8a740556aa611d4638f9a4db6790e3439cc6a44850bc30&o=&hp=1",
+      "imageUrl": "https://ik.imgkit.net/3vlqs5axxjf/external/https://media.iceportal.com/154981/photos/76706180_XL.jpg?tr=w-1200%2Cfo-auto",
+      "area": "N 8. შარტავას ქ.ბათუმი 6000",
+      "actions": "open",
+      "category": "beachFront",
+      "categoryIcon": "brightness-alt-high"
+    },
+    {
+      "id": 24,
+      "title": "დითი დრაივი • Diti Drive",
+      "price": 5,
+      "description": " დრაივი",
+      "secondImage": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1c/77/9e/b0/best-coffee-shop-in-gurgaon.jpg?w=900&h=500&s=1",
+      "thirdImage": "https://www.gazprom-petrol.bg/sites/default/files/files/drive-cafe-casa-bug.jpg",
+      "fifthImage": "https://madloba.info/media/images/Drive_Coffee.max-1920x1080.format-webp.mwtmk.webp",
+      "fourthImage": "https://spotgeorgia.com/wp-content/uploads/2023/12/2023-03-20.jpg",
+      "imageUrl": "https://spotgeorgia.com/wp-content/uploads/2023/12/2023-03-15-1.jpg",
+      "area": " ქითაისი",
+      "actions": "open",
+      "category": "breakfast",
+      "categoryIcon": "cup-hot-fill"
+    },
+    {
+      "id": 24,
+      "title": "ყავის დრაივი • coffee drive",
+      "price": 3,
+      "description": " საუკეთესო დრაივი ყავის მოყვარულებისთვის",
+      "secondImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKcAlfNkdO4sMGp-U7to0GuIn_mCp5GEZq4g&s",
+      "thirdImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS8cpC7QKPnVWMhr7L4WrdJU2nslxHETgwSSQ&s",
+      "fifthImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQIJXpwDZ9upwudaxEOMt_UW0ZcFbSoS6ETiA&s",
+      "fourthImage": "https://spotgeorgia.com/wp-content/uploads/2023/12/306008783_1384612498694342_3788235689315098829_n.jpg",
+      "imageUrl": "https://spotgeorgia.com/wp-content/uploads/2023/12/305985496_763427851595685_3759617727961397836_n.jpg",
+      "area": "ქუთაისი",
+      "actions": "open",
+      "category": "breakfast",
+      "categoryIcon": "cup-hot-fill"
+    },
+
+
+
+
+
+    {
+      "id":25 ,
+      "title": "Casino IVERIA Tbilisi\n\n\n",
+      "price": 0,
+      "description": "კაზინო ივერია სასტუმრო რედისონის 0 სართული ",
+      "secondImage": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2d/8c/f6/e6/main-hall.jpg?w=1000&h=-1&s=1",
+      "thirdImage": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2d/8c/f9/41/slots-hall.jpg?w=1000&h=-1&s=1",
+      "fifthImage": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2d/8d/48/88/main-hall.jpg?w=1000&h=-1&s=1",
+      "fourthImage": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2d/8d/4a/02/main-hall.jpg?w=1000&h=-1&s=1",
+      "imageUrl": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2f/55/f9/45/exterior.jpg?w=1000&h=-1&s=1",
+      "area": "რუსთაველის გამზირი",
+      "actions": "open",
+      "category": "gambling",
+      "categoryIcon": "controller"
+    },
+
+
+
+
+
+
+    {
+      "id": 26 ,
+      "title": "Black Opal Casino",
+      "price": 0,
+      "description": "„კეთილი იყოს თქვენი მობრძანება Black Opal-ში, რომელიც მდებარეობს თბილისსა და საბურთალოზე. აქ თქვენ დაგხვდებათ მდიდრული გარემო და მეგობრული მომსახურება, რაც ყოველ ვიზიტს განსაკუთრებულს ხდის.“",
+      "secondImage": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2c/a0/40/b4/slot-machines-in-tbilisi.jpg?w=1000&h=-1&s=1",
+      "thirdImage": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2c/a0/40/dc/poker-in-tbilisi.jpg?w=1000&h=-1&s=1",
+      "fifthImage": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2c/a0/41/04/roulette-in-tbilisi.jpg?w=1000&h=-1&s=1",
+      "fourthImage": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2c/a0/41/08/roulette-machines-tbilisi.jpg?w=1000&h=-1&s=1",
+      "imageUrl": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2c/a0/41/19/black-opal-casino-slots.jpg?w=1000&h=-1&s=1",
+      "area": "პეკინის გამზ. 30, თბილისი 0160",
+      "actions": "open",
+      "category": "gambling",
+      "categoryIcon": "controller"
     }
+
+
+
+
+
+
+
+
+
   ],
   "transports": [
     {
@@ -183,29 +502,12 @@
       "price": 25,
       "id": 3,
       "hotelId": 3
-    },
-    {
-      "image": "https://media.architecturaldigest.com/photos/599afec1d115db3276c02c73/master/pass/vision-mercedes-maybach-6-cabriolet-front-three-quarters-01.jpg",
-      "title": "maybach luxury",
-      "description": "ავტობუსი კონდიციონერით ტელევიზორით და საკმაოდ კომფორტული",
-      "route": "თბილისიდან რაჭამდე",
-      "price": 225,
-      "id": 13,
-      "hotelId": 13
     }
   ],
   "categories": [
     {
       "category": "All Categories",
       "categoryIcon": ""
-    },
-    {
-      "category": "island",
-      "categoryIcon": "tsunami"
-    },
-    {
-      "category": "transport",
-      "categoryIcon": "bus-front"
     },
     {
       "category": "beachFront",
@@ -220,24 +522,12 @@
       "categoryIcon": "water"
     },
     {
-      "category": "tropical",
-      "categoryIcon": "cloud-rain-heavy-fill"
-    },
-    {
       "category": "trending",
       "categoryIcon": "fire"
     },
     {
       "category": "breakfast",
       "categoryIcon": "cup-hot-fill"
-    },
-    {
-      "category": "capitalCities",
-      "categoryIcon": "bank"
-    },
-    {
-      "category": "new",
-      "categoryIcon": "key"
     },
     {
       "category": "gambling",
@@ -250,10 +540,6 @@
     {
       "category": "arctic",
       "categoryIcon": "snow3"
-    },
-    {
-      "category": "desert",
-      "categoryIcon": "umbrella"
     },
     {
       "category": "parks",
