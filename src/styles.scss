@@ -12,6 +12,12 @@ body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
   justify-content: space-around;
   align-items: center;
 }
+#toast-container {
+  position: absolute; // or relative if you want it inside a wrapper
+  bottom: 20px;
+  right: 20px;
+  z-index: 9999; // higher than your content
+}
 i{
   color: white;
   font-size: 12px;

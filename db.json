@@ -1,24 +1,26 @@
 {
-  "users": [{}],
+  "users": [
+    {
+      "email": "burduli@gmail.com",
+      "password": "$2a$10$r21A/ZT/zYzHdcSUZ/nkfeupbyTPxJTJkxYzW4KELglS4mFSuxYgC",
+      "name": "nikoloz",
+      "lastname": "burduli",
+      "confirmPassword": "12345",
+      "username": "nikusha",
+      "host": true,
+      "id": 1
+    }
+  ],
+  "comments": [
+    {
+      "body": "საკმაოდ ლამაზი სასტუმროა",
+      "commentId": "4",
+      "userName": "nikusha",
+      "id": 1
+    }
+  ],
   "hotels": [
     {
-    "id": 1,
-    "title": "Breathtaking Sea View Villa, Pool & Access to Sea",
-    "price": 99,
-    "description": "one of the most popular hotel in tbilisi",
-    "secondImage": "https://hotelxtoronto.com/_novaimg/4906918-1481330_0_0_2200_1200_2200_1200.rc.jpg",
-    "thirdImage": "https://images.unsplash.com/photo-1566073771259-6a8506099945?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8aG90ZWx8ZW58MHx8MHx8fDA%3D&w=1000&q=80",
-    "fifthImage": "https://digital.ihg.com/is/image/ihg/ihgor-member-rate-web-offers-1440x720",
-    "fourthImage": "https://www.usatoday.com/gcdn/-mm-/05b227ad5b8ad4e9dcb53af4f31d7fbdb7fa901b/c=0-64-2119-1259/local/-/media/USATODAY/USATODAY/2014/08/13/1407953244000-177513283.jpg",
-    "imageUrl": "https://media.cnn.com/api/v1/images/stellar/prod/210517162938-underscored-marriott-virginia-beach-oceanfront-exterior.jpg?q=w_3200,h_1800,x_0,y_0,c_fill",
-    "area": "France, Paris",
-    "actions": "open",
-    "category": "island",
-    "categoryIcon": "tsunami"
-  },
-    {
-
-
       "id": 2,
       "title": "სასტუმრო ულამაზესი ხედებით",
       "price": 99,
@@ -33,7 +35,6 @@
       "category": "island",
       "categoryIcon": "tsunami"
     },
-
     {
       "id": 3,
       "title": "Marriott Tbilisi",
@@ -48,11 +49,151 @@
       "actions": "open",
       "category": "luxury",
       "categoryIcon": "gem"
+    },
+    {
+      "id": 4,
+      "title": "Paragraph Freedom Square, a Luxury Collection Hotel ",
+      "price": 550,
+      "description": " შეაბიჯეთ ეკლექტიკური ენერგიისა და ხიბლის სამყაროში, პარაგრაფ თავისუფლების მოედანზე, თბილისში. ისტორიული ძველი ქალაქიდან, იუნესკოს მსოფლიო მემკვიდრეობის ძეგლიდან რამდენიმე ნაბიჯში, ახალი ერის დასაწყისია - საქართველოს გამორჩეული ფუფუნების სასტუმრო. ",
+      "secondImage": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2c/c2/e5/29/exterior.jpg?w=500&h=-1&s=1",
+      "thirdImage": "https://paragraph-freedom-square-a-luxury-collection-hotel-3.tbilisi-hotels.com/data/Pics/OriginalPhoto/16084/1608410/1608410539/tbilisi-pic-14.JPEG",
+      "fifthImage": "https://images.trvl-media.com/lodging/98000000/97870000/97861600/97861553/65a6b85c.jpg?impolicy=resizecrop&rw=575&rh=575&ra=fill",
+      "fourthImage": "https://paragraph-freedom-square-a-luxury-collection-hotel-3.tbilisi-hotels.com/data/Pics/OriginalPhoto/16084/1608410/1608410524/tbilisi-pic-6.JPEG",
+      "imageUrl": "https://www.ticati.com/img/hotel/15910299s.jpg",
+      "area": "თავისუფლების მოედანი, თბილისი",
+      "actions": "open",
+      "category": "luxury",
+      "categoryIcon": "gem"
+    },
+    {
+      "id": 5,
+      "title": "The Biltmore Hotel Tbilisi",
+      "price": 350,
+      "description": "სასტუმრო „ბილტმორ თბილისი“ ,სტუმრებს სთავაზობს დახურულ აუზს, სპას და ფიტნეს ცენტრს.",
+      "secondImage": "https://georgianjournal.ge/media/images/georgianews/2017/May/Economy/biltmore12.jpg",
+      "thirdImage": "https://ik.imgkit.net/3vlqs5axxjf/external/https://www.cfmedia.vfmleonardo.com/imageRepo/5/0/86/783/280/amphotheater_O.jpg?tr=w-940%2Ch-529%2Cfo-auto%2Cdi-ami-fallback.png",
+      "fifthImage": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/83302703.jpg?k=98839b7337aaf6bbdf7631970675156743ab6a8d4d682de3db22acd860f67f43&o=&hp=1",
+      "fourthImage": "https://images.trvl-media.com/lodging/16000000/15840000/15835100/15835033/5a607b54.jpg?impolicy=resizecrop&rw=575&rh=575&ra=fill",
+      "imageUrl": "https://www.millenniumhotels.com/mhb-media/regions/europe/georgia/tbilisi/thebiltmorehoteltbilisi/generic/images/biltmore-tbilisi-min.png?rev=2b81c75f11ff4555bcafe3c222f95190",
+      "area": "თბილისი, ოპერისა და ბალეტის თეატრიდან 300 მეტრში",
+      "actions": "open",
+      "category": "luxury",
+      "categoryIcon": "gem"
+    },
+    {
+      "id": 6,
+      "title": "King David Residence",
+      "price": 1550,
+      "description": "King David Residence-ი თბილისში გთავაზობთ 4-ვარსკვლავიან აპარტამენტებს უფასო WiFi-ით, კონდიციონერით და საკუთარი სველი წერტილებით.",
+      "secondImage": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/23/1d/58/8d/king-david-residence.jpg?w=900&h=500&s=1",
+      "thirdImage": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/429219113.jpg?k=792892db39192093f0bbf9224ca9b9b6bd5c5144f3aa798310341ead3c52da44&o=&hp=1",
+      "fifthImage": "https://q-xx.bstatic.com/xdata/images/hotel/max500/415908009.jpg?k=bc4956243de471f096d7071d2782a260588e32b0c0db6d197767335b04fe7746&o=",
+      "fourthImage": "https://www.d73.it/wp-content/uploads/2024/07/KDR_022a-scaled.jpg",
+      "imageUrl": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/477293785.jpg?k=911103b5395778ed76488215eeef88c6a62192919805d47dbc6b4fb7336c4d88&o=&hp=1",
+      "area": "0102, 144 დავით აღმაშენებლის ხეივანი, თბილისი",
+      "actions": "open",
+      "category": "luxury",
+      "categoryIcon": "gem"
+    },
+    {
+      "id": 7,
+      "title": "Hotel Maria",
+      "price": 50,
+      "description": "საოჯახო სასტუმრო ულამაზესი ხედით და სუფთა გარემოთი",
+      "secondImage": "https://sastumroebi.ge/uploads/2025/54/s/3-s.png",
+      "thirdImage": "https://sastumroebi.ge/uploads/2025/54/s/2-s.jpg",
+      "fifthImage": "https://sastumroebi.ge/uploads/2025/54/s/8-s.jpg",
+      "fourthImage": "https://sastumroebi.ge/uploads/2025/54/s/13-s.jpg",
+      "imageUrl": "https://sastumroebi.ge/uploads/2025/54/s/1-s.jpg",
+      "area": "მესტია, სენაკის ქ 12",
+      "actions": "open",
+      "category": "cabins",
+      "categoryIcon": "house-fill"
+    },
+    {
+      "id": 8,
+      "title": "Hotel Dioscuria",
+      "price": 50,
+      "description": "საოჯახო სასტუმრო \"დიოსკურია ბორჯომი\" განთავსებლაი ბორჯომის ულამაზეს ხეობაში",
+      "secondImage": "https://sastumroebi.ge/uploads/2025/1573/s/1-s.jpeg",
+      "thirdImage": "https://sastumroebi.ge/uploads/2025/1573/s/2-s.jpeg",
+      "fifthImage": "https://sastumroebi.ge/uploads/2025/1573/s/4-s.jpeg",
+      "fourthImage": "https://sastumroebi.ge/uploads/2025/1573/s/8-s.jpeg",
+      "imageUrl": "https://sastumroebi.ge/uploads/2025/1573/s/5-s.jpeg",
+      "area": "ბორჯომი, ვარდგინეთი",
+      "actions": "open",
+      "category": "cabins",
+      "categoryIcon": "house-fill"
+    },
+    {
+      "id": 9,
+      "title": "საოჯახო სასტუმრო ნიუ სეტი",
+      "price": 45,
+      "description": "საოჯახო სასტუმრო ნიუ სეტი, სასტუმრო მდებარეობს მესტიაში, ცენტრში, მერიის და იუსტიციის გვერდზე",
+      "secondImage": "https://sastumroebi.ge/uploads/2024/1490/s/3-s.jpeg",
+      "thirdImage": "https://sastumroebi.ge/uploads/2024/1490/s/4-s.jpeg",
+      "fifthImage": "https://sastumroebi.ge/uploads/2024/1490/s/12-s.jpeg",
+      "fourthImage": "https://sastumroebi.ge/uploads/2024/1490/s/11-s.jpeg",
+      "imageUrl": "https://sastumroebi.ge/uploads/2024/1490/s/2-s.jpeg",
+      "area": "მესტია, მერიის და იუსტიციის გვერდზე",
+      "actions": "open",
+      "category": "cabins",
+      "categoryIcon": "house-fill"
+    },
+    {
+      "id": 10,
+      "title": "Swissotel Tbilisi",
+      "price": 300,
+      "description": "Swissotel Tbilisi გთავაზობთ 5-ვარსკვლავიან საცხოვრებელ გამოცდილებას ქალაქის გულში, საიდანაც შეგიძლიათ გაიღვიძოთ ძველი თბილისის, მშრალი ხიდის, მთაწმინდის მთის და განსაცვიფრებელი ხედებით. Swissotel Tbilisi მდებარეობს თბილისის რამდენიმე მთავარი ტურისტული ღირსშესანიშნაობის გვერდით, როგორიცაა ორბელიანის ბაზარი, პარლამენტის შენობა, გალერია სავაჭრო ცენტრი და იქვე შეგიძლიათ ეწვიოთ მშრალი ხიდის რწყილის ბაზარს.",
+      "secondImage": "https://www.vectorge.com/files/522651/catitems/l/Swissotel_.jpg",
+      "thirdImage": "https://www.swissotel.com/assets/0/92/2119/6442453995/6442454038/6442454040/6442454075/69261540-c537-49d6-a023-76f73da556bc.jpg",
+      "fifthImage": "https://www.swissotel.com/assets/0/92/3686/3768/3770/6442451433/4dcb214deb9a4780a9d44fdc79b05285.jpg",
+      "fourthImage": "https://www.swissotel.com/assets/0/92/2119/6442453995/6442454038/6442454040/6442454075/2aeed9b1-9fba-4e86-9fd7-8ff46a7bbb8c.jpg",
+      "imageUrl": "https://api-places.georgia.travel/storage/images/exterior-2(1).webp",
+      "area": "Tbilisi - 3 Soliko Virsaladze Street",
+      "actions": "open",
+      "category": "luxury",
+      "categoryIcon": "gem"
     }
-
-
-
-],
+  ],
+  "transports": [
+    {
+      "image": "https://www.thedrive.com/wp-content/uploads/2023/08/11/wallpapers_mitsubishi_delica__1.jpg?quality=85",
+      "title": "DELICA",
+      "description": "მანქანა არის საკმაოდ კარგ მდგომარეობაში არის საკმაოდ ტევადი და კომფორტული",
+      "route": "თბილისიდან ტბებამდე",
+      "price": 100,
+      "id": 2,
+      "hotelId": 2
+    },
+    {
+      "image": "https://www.bpn.ge/media/__thumbs__/cover/w762/uploads/2024/12-17/georgian-bus-aeropuerto-de-kutaisi-1734448856.jpg",
+      "title": "Georgian Bus",
+      "description": "ავტობუსი კონდიციონერით ტელევიზორით და საკმაოდ კომფორტული",
+      "route": "თბილისიდან ქუთაისამე",
+      "price": 50,
+      "id": 2,
+      "hotelId": 2
+    },
+    {
+      "image": "https://www.orientalescape.com/images/vehicle/van5/m1.webp",
+      "title": "Sprinter Van",
+      "description": "ავტობუსი კონდიციონერით ტელევიზორით და საკმაოდ კომფორტული",
+      "route": "თბილისიდან რაჭამდე",
+      "price": 25,
+      "id": 3,
+      "hotelId": 3
+    },
+    {
+      "image": "https://media.architecturaldigest.com/photos/599afec1d115db3276c02c73/master/pass/vision-mercedes-maybach-6-cabriolet-front-three-quarters-01.jpg",
+      "title": "maybach luxury",
+      "description": "ავტობუსი კონდიციონერით ტელევიზორით და საკმაოდ კომფორტული",
+      "route": "თბილისიდან რაჭამდე",
+      "price": 225,
+      "id": 13,
+      "hotelId": 13
+    }
+  ],
   "categories": [
     {
       "category": "All Categories",
@@ -99,7 +240,7 @@
       "categoryIcon": "key"
     },
     {
-      "category": "gambilng",
+      "category": "gambling",
       "categoryIcon": "controller"
     },
     {

@@ -30,7 +30,7 @@ export class MainpageComponent implements OnInit {
         this.allHotels = res.map(hotel => ({ ...hotel, currentImageIndex: 0 }) );
         setTimeout(() => {
           this.hotels.next(this.allHotels);
-        }, 2000)
+        }, 1000)
         this.isLoading = false
       })
     ).subscribe();

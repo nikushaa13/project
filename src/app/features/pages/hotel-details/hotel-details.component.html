@@ -4,6 +4,10 @@
       <div class="title">
         <h1>{{hotelDetails.title}}</h1>
       </div>
+      <div (click)="openTransportDetailsPage(hotelDetails.id)" class="transport">
+        <a>ტრანსპორტი</a>
+        <i class="bi bi-bus-front"></i>
+      </div>
       <div class="details">
         <h1>Area <span>{{hotelDetails.area}}</span></h1>
         <h1> Price <span>{{hotelDetails.price}}$</span></h1>
@@ -25,5 +29,37 @@
         <h1>{{hotelDetails.description}}</h1>
       </div>
     </div>
+  </div>
+  <div class="last-content">
+    <p class="par">Map</p>
+    <iframe class="map"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d23833.459137298927!2d44.77165751108515!3d41.69499812115981!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40440cea6b29c8f9%3A0xabb7446518210f1d!2z4YOb4YOX4YOQ4YOs4YOb4YOY4YOc4YOT4YOQ!5e0!3m2!1ska!2sge!4v1621246825812!5m2!1ska!2sge"
+            width="100%" height="250" style="border: 8px;;" allowfullscreen="" loading="lazy"></iframe>
+
+  </div>
+  <div class="comments-section">
+    <h2>Comments</h2>
+
+    <!-- Display Comments -->
+    <div *ngIf="comments.length > 0; else noComments">
+      <div *ngFor="let comment of comments" class="comment">
+        <p><strong>{{ comment.userName }}</strong></p>
+        <p>{{ comment.body }}</p>
+      </div>
+    </div>
+    <ng-template #noComments>
+      <p>No comments yet.</p>
+    </ng-template>
+
+    <form [formGroup]="commentFormGroup"  class="comment-form">
+      <div>
+      <textarea
+        name="message"
+        placeholder="Write a comment..."
+        formControlName="comment"
+      ></textarea>
+      </div>
+      <button (click)="createComment()" type="submit" >Post Comment</button>
+    </form>
   </div>
 </ng-container>
